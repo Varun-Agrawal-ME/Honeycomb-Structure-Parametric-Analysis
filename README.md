@@ -1,7 +1,5 @@
-# Honeycomb-Structure-Parametric-Analysis
-This is an on-going supervised project in which I have to do the parametric analysis of the honeycomb structure through FEA using the
-concepts of design of experiments, response surface, regression analysis, and optimization. I have to design a base model of the honeycomb
-structure and simulate it to determine the behavior of mechanical parameters. Then, for the parametric analysis, the range of values
-will be given to the dimensional parameters of honeycomb such as length, height, thickness, and corner radius of a unit cell. Finally, the 
-optimized value of all these parameters will be determined such that the structure has the minimum deflection and stresses under the 
-compression loading.
+# Honeycomb-Unit-Cell-Optimization-Parametric-Analysis
+Supervised Project (Advisor - Dr. Dhruv Bhate)
+• Designed hexagon HC cell in SpaceClaim by recording python script; Parametrized inner radius, thickness, and corner radius 
+• Implemented periodic boundary conditions on an RVE for isotropic material in ANSYS; Performed mesh size and cell depth analysis; Formulated its in-plane effective Young’s modulus to assess von-Mises stress; Employed full-factorial design with 64 points and plotted response surfaces & local sensitivity curves by using 16 verification points to identify parameters effect  
+• Direct Optimization of cell by keeping stress under 15 MPa and downscaled geometry volume by 21.5 % from center values
